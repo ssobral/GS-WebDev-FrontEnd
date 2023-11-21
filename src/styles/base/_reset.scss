@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+h1{
+    font-size: $tamanho-fonte-titulo;
+    font-family: $fonte-titulo;
+    font-weight: 500;
+}
+
+p{
+    font-size: $tamanho-fonte;
+    font-family: $fonte;
+}

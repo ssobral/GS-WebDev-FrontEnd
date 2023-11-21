@@ -1,0 +1,18 @@
+@media screen and (max-width: 1500px){
+    .cards{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .main_info{
+       flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .login-form{
+        margin: 4rem;
+    }
+}
