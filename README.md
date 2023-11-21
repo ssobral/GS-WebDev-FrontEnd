@@ -1,6 +1,6 @@
 Instruções:
 
-Infelizmente o serviço de cadastro e login não funciona em vercel, por se 
+É necessário acionar o dados.json para usar o sistema de login, por se 
 tratar de um servidor json local da máquina. Para testa-lo:
 
 1. Copie o repositório do github
