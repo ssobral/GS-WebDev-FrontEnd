@@ -49,6 +49,11 @@ main .main_info {
 main .main_info .main-title {
   font-size: 40px;
 }
+@media screen and (max-width: 720px) {
+  main .main_info {
+    flex-direction: column;
+  }
+}
 main .div-button {
   display: flex;
   justify-content: end;
@@ -93,12 +98,31 @@ aside .aside-container .aside-item {
      object-fit: cover;
   border: 2px ridge #45B549;
 }
+@media screen and (max-width: 720px) {
+  .vantagens .vantagens-article .article-img {
+    width: 10rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .vantagens .vantagens-article .article-img {
+    width: 12.5rem;
+    height: 16rem;
+  }
+}
 .vantagens .vantagens-article .vantagens-numero {
   font-size: 32px;
   margin: 1rem 0.5rem;
 }
 .vantagens .vantagens-article .article-div {
   margin-left: 1rem;
+}
+@media screen and (max-width: 360px) {
+  .vantagens .vantagens-article {
+    flex-direction: column;
+  }
+  .vantagens .article-img {
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 1024px) {

@@ -22,6 +22,11 @@ main{
             font-size: 40px;
         }
     }
+    @media screen and (max-width: 720px) {
+        .main_info{
+            flex-direction: column;
+        }
+    }
     .div-button{
         display: flex;
         justify-content: end;
@@ -66,12 +71,31 @@ aside{
             object-fit: cover;
             border: 2px ridge $verde;
         }
+        @media screen and (max-width: 720px) {
+            .article-img{
+                width: 10rem;
+            }
+        }
+        @media screen and (max-width: 360px){
+            .article-img{
+                width: 12.5rem;
+                height: 16rem;
+            }
+        }
         .vantagens-numero{
             font-size: 32px;
             margin: 1rem 0.5rem;
         }
         .article-div{
             margin-left: 1rem;
+        }
+    }
+    @media screen and (max-width: 360px) {
+        .vantagens-article{
+            flex-direction: column;
+        }
+        .article-img{
+            width: auto;
         }
     }
 }
