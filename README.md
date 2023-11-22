@@ -1,7 +1,8 @@
 Instruções:
 
-É necessário acionar o dados.json para usar o sistema de login, por se 
-tratar de um servidor json local da máquina. Para testa-lo:
+Infelizmente o JSON server utilizado para Login não funciona em vercel por se basear de um servidor local da máquina.
+
+É necessário acionar o dados.json para usar o sistema de login. Para testa-lo:
 
 1. Copie o repositório do github
 2. Dentro da pasta, com um terminal git bash, use “npm install”, logo em seguida use “npm run 
