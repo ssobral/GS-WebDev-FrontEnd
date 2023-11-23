@@ -19,3 +19,6 @@ admin@admin.com
 Integrantes:
 - Lucas Sobral RM98188
 - Murilo Mansano RM98143
+
+Link vercel:
+https://gs-web-dev-front-end.vercel.app/
